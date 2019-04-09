@@ -76,146 +76,19 @@ class SectionBasics extends React.Component {
       <div className={classes.sections}>
         <div className={classes.container}>
           <div className={classes.title}>
-            <h2>Basic Elements</h2>
+            <h2>Dawei Zhu</h2>
+            <h3>Sales Representative</h3>
           </div>
           <div id="buttons">
             <div className={classes.title}>
               <h3>
-                Buttons
-                <br />
-                <small>Pick your style</small>
+                <small>
+                  Buying or selling a home is a big decision - you need an experienced professional to guide you through the process. When you work with me, you can count on personal, attentive, patient service, excellent knowledge of the area, great negotiation skills and expert selling strategies.
+                </small>
               </h3>
             </div>
-            <GridContainer justify="center">
-              <GridItem xs={12} sm={12} md={8}>
-                <Button color="primary">Default</Button>
-                <Button color="primary" round>
-                  round
-                </Button>
-                <Button color="primary" round>
-                  <Favorite className={classes.icons} /> with icon
-                </Button>
-                <Button justIcon round color="primary">
-                  <Favorite className={classes.icons} />
-                </Button>
-                <Button color="primary" simple>
-                  simple
-                </Button>
-              </GridItem>
-            </GridContainer>
-            <div className={classes.title}>
-              <h3>
-                <small>Pick your size</small>
-              </h3>
-            </div>
-            <GridContainer justify="center">
-              <GridItem xs={12} sm={12} md={8}>
-                <Button color="primary" size="sm">
-                  Small
-                </Button>
-                <Button color="primary">Regular</Button>
-                <Button color="primary" size="lg">
-                  Large
-                </Button>
-              </GridItem>
-            </GridContainer>
-            <div className={classes.title}>
-              <h3>
-                <small>Pick your color</small>
-              </h3>
-            </div>
-            <GridContainer justify="center">
-              <GridItem xs={12} sm={12} md={8}>
-                <Button>Default</Button>
-                <Button color="primary">Primary</Button>
-                <Button color="info">Info</Button>
-                <Button color="success">Success</Button>
-                <Button color="warning">Warning</Button>
-                <Button color="danger">Danger</Button>
-                <Button color="rose">Rose</Button>
-              </GridItem>
-            </GridContainer>
           </div>
-          <div className={classes.space50} />
-          <div id="inputs">
-            <div className={classes.title}>
-              <h3>Inputs</h3>
-            </div>
-            <GridContainer>
-              <GridItem xs={12} sm={4} md={4} lg={3}>
-                <CustomInput
-                  id="regular"
-                  inputProps={{
-                    placeholder: "Regular"
-                  }}
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                />
-              </GridItem>
-              <GridItem xs={12} sm={4} md={4} lg={3}>
-                <CustomInput
-                  labelText="With floating label"
-                  id="float"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                />
-              </GridItem>
-              <GridItem xs={12} sm={4} md={4} lg={3}>
-                <CustomInput
-                  labelText="Success input"
-                  id="success"
-                  success
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                />
-              </GridItem>
-              <GridItem xs={12} sm={4} md={4} lg={3}>
-                <CustomInput
-                  labelText="Error input"
-                  id="error"
-                  error
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                />
-              </GridItem>
-              <GridItem xs={12} sm={4} md={4} lg={3}>
-                <CustomInput
-                  labelText="With material Icons"
-                  id="material"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                  inputProps={{
-                    endAdornment: (
-                      <InputAdornment position="end">
-                        <People />
-                      </InputAdornment>
-                    )
-                  }}
-                />
-              </GridItem>
-              <GridItem xs={12} sm={4} md={4} lg={3}>
-                <CustomInput
-                  labelText="With Font Awesome Icons"
-                  id="font-awesome"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                  inputProps={{
-                    endAdornment: (
-                      <InputAdornment position="end">
-                        <i className="fas fa-users" />
-                      </InputAdornment>
-                    )
-                  }}
-                />
-              </GridItem>
-            </GridContainer>
-          </div>
+          {/* <div className={classes.space50} /> */}
           <div className={classes.space70} />
           <div id="checkRadios">
             <GridContainer>
