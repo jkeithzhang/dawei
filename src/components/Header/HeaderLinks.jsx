@@ -25,7 +25,7 @@ function HeaderLinks({ ...props }) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Link
-          to="/ddf"
+          to="/"
           color="transparent"
           className={classes.navLink}
         >
@@ -33,22 +33,22 @@ function HeaderLinks({ ...props }) {
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
+        <Link
+          to="/login-page"
           color="transparent"
           className={classes.navLink}
         >
           Properties
-        </Button>
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
+        <Link
+          to="/profile-page"
           color="transparent"
           className={classes.navLink}
         >
           About Us
-        </Button>
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
@@ -69,13 +69,13 @@ function HeaderLinks({ ...props }) {
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
+        <Link
+          to="/contacts-page"
           color="transparent"
           className={classes.navLink}
         >
           Contacts
-        </Button>
+        </Link>
       </ListItem>
     </List>
   );

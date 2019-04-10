@@ -68,7 +68,7 @@ class Components extends React.Component {
 
         <div className={classNames(classes.main, classes.mainRaised)}>
           <SectionBasics />
-          <SectionNavbars />
+          {/* <SectionNavbars />
           <SectionTabs />
           <SectionPills />
           <SectionNotifications />
@@ -85,7 +85,7 @@ class Components extends React.Component {
             </Link>
           </GridItem>
           <SectionExamples />
-          <SectionDownload />
+          <SectionDownload /> */}
         </div>
         <Footer />
       </div>
