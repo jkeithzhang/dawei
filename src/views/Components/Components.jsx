@@ -58,7 +58,7 @@ class Components extends React.Component {
                     alt="..."
                   />
                   <h3 className={classes.subtitle}>
-                    Placeholder
+                    Placeholderrrr
                   </h3>
                 </div>
               </GridItem>

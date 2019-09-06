@@ -19,7 +19,7 @@ import Button from "components/CustomButtons/Button.jsx";
 import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
 
 function HeaderLinks({ ...props }) {
-  console.log(props);
+  console.log("....", props);
   const { classes } = props;
   return (
     <List className={classes.list}>
