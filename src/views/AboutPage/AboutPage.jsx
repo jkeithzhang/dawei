@@ -26,7 +26,7 @@ class Components extends React.Component {
     return (
       <div>
         <Header
-          brand="Dawei Zhu Real Estate Professionals"
+          brand="DDDDawei Zhu Real Estate Professionals"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
@@ -56,25 +56,7 @@ class Components extends React.Component {
         </Parallax>
 
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <SectionBasics />
-          {/* <SectionNavbars />
-          <SectionTabs />
-          <SectionPills />
-          <SectionNotifications />
-          <SectionTypography />
-          <SectionJavascript />
-          <SectionCarousel />
-          <SectionCompletedExamples />
-          <SectionLogin />
-          <GridItem md={12} className={classes.textCenter}>
-            <Link to={"/login-page"} className={classes.link}>
-              <Button color="primary" size="lg" simple>
-                View Login Page
-              </Button>
-            </Link>
-          </GridItem>
-          <SectionExamples />
-          <SectionDownload /> */}
+          <SectionBasics page={"about"}/>
         </div>
         <Footer />
       </div>

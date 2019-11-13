@@ -37,7 +37,7 @@ class Components extends React.Component {
     return (
       <div>
         <Header
-          brand="Dawei Zhu Real Estate Professionals"
+          brand="DDDDawei Zhu Real Estate Professionals"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"

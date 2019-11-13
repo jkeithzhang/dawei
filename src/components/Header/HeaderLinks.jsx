@@ -19,7 +19,6 @@ import Button from "components/CustomButtons/Button.jsx";
 import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
 
 function HeaderLinks({ ...props }) {
-  console.log("....", props);
   const { classes } = props;
   return (
     <List className={classes.list}>
@@ -34,20 +33,20 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link
-          to="/login-page"
+          to="/about-page"
           color="transparent"
           className={classes.navLink}
         >
-          Properties
+          About
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link
-          to="/profile-page"
+          to="/login-page"
           color="transparent"
           className={classes.navLink}
         >
-          About Us
+          Buying
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
