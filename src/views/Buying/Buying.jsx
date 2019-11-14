@@ -13,6 +13,7 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import SectionBasics from "../Components/Sections/SectionBasics.jsx";
+import SectionPills from "../Components/Sections/SectionPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
@@ -26,7 +27,7 @@ class Components extends React.Component {
     return (
       <div>
         <Header
-          brand="Dawei Zhu Real Estate Professionals"
+          brand="DDDDawei Zhu Real Estate Professionals"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
@@ -36,7 +37,7 @@ class Components extends React.Component {
           }}
           {...rest}
         />
-        <Parallax image={require("assets/img/bg7.jpg")}>
+        <Parallax image={require("assets/img/bg5.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
@@ -56,7 +57,7 @@ class Components extends React.Component {
         </Parallax>
 
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <SectionBasics page={"about"}/>
+          <SectionPills />
         </div>
         <Footer />
       </div>

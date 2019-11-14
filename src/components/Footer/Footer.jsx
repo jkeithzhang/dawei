@@ -10,6 +10,7 @@ import { List, ListItem, withStyles } from "@material-ui/core";
 import Favorite from "@material-ui/icons/Favorite";
 
 import footerStyle from "assets/jss/material-kit-react/components/footerStyle.jsx";
+import footerpic from "assets/img/footer.jpg";
 
 function Footer({ ...props }) {
   const { classes, whiteFont } = props;
@@ -24,7 +25,8 @@ function Footer({ ...props }) {
   return (
     <footer className={footerClasses}>
       <div className={classes.container}>
-        <div className={classes.left}>
+        <img src={footerpic} alt="..." style={{ width: '100%'}} />
+        {/* <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
@@ -39,7 +41,7 @@ function Footer({ ...props }) {
               <a
                 href="https://www.creative-tim.com/presentation"
                 className={classes.block}
-                target="_blank"
+                target="_blank"I th
               >
                 About us
               </a>
@@ -75,7 +77,7 @@ function Footer({ ...props }) {
             Creative Tim
           </a>{" "}
           for a better web.
-        </div>
+        </div> */}
       </div>
     </footer>
   );

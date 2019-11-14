@@ -33,7 +33,7 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link
-          to="/about-page"
+          to="/about"
           color="transparent"
           className={classes.navLink}
         >
@@ -42,7 +42,7 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link
-          to="/login-page"
+          to="/buying"
           color="transparent"
           className={classes.navLink}
         >
@@ -55,7 +55,7 @@ function HeaderLinks({ ...props }) {
           color="transparent"
           className={classes.navLink}
         >
-          Buyers
+          Selling
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

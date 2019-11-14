@@ -25,7 +25,7 @@ function AboutContent() {
             </h3>
             <h3>
                 <small>
-                    Don’t hesitate to call or email me today with any of your real estate questions or needs: 613-724-6838, or daweizhu@royallepage.ca.
+                    Again, please don’t hesitate to call or email me today with any of your real estate questions or needs.
                 </small>
             </h3>
         </div>
