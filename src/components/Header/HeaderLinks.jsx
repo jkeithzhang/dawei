@@ -42,21 +42,21 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link
-          to="/buying"
+          to="/buynsell"
           color="transparent"
           className={classes.navLink}
         >
-          Buying
+          Buy & Sell
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
+        <Link
+          to="/customerstory"
           color="transparent"
           className={classes.navLink}
         >
-          Selling
-        </Button>
+          Customer Stories
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button

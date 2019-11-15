@@ -32,7 +32,7 @@ class SectionPills extends React.Component {
                 </div>
                 <div className={classes.title}>
                   <h3>
-                    <small>in 4 steps:</small>
+                    <small>Four steps:</small>
                   </h3>
                 </div>
                 <NavPills
@@ -91,7 +91,7 @@ class SectionPills extends React.Component {
                 </div>
                 <div className={classes.title}>
                   <h3>
-                    <small>in 3 steps:</small>
+                    <small>Three steps:</small>
                   </h3>
                 </div>
                 <NavPills
