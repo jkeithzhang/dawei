@@ -12,7 +12,7 @@ import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
-import SectionBasics from "../Components/Sections/SectionBasics.jsx";
+import SectionTypography from "../Components/Sections/SectionTypography.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
@@ -56,25 +56,7 @@ class Components extends React.Component {
                 </Parallax>
 
                 <div className={classNames(classes.main, classes.mainRaised)}>
-                    <SectionBasics />
-                    {/* <SectionNavbars />
-          <SectionTabs />
-          <SectionPills />
-          <SectionNotifications />
-          <SectionTypography />
-          <SectionJavascript />
-          <SectionCarousel />
-          <SectionCompletedExamples />
-          <SectionLogin />
-          <GridItem md={12} className={classes.textCenter}>
-            <Link to={"/login-page"} className={classes.link}>
-              <Button color="primary" size="lg" simple>
-                View Login Page
-              </Button>
-            </Link>
-          </GridItem>
-          <SectionExamples />
-          <SectionDownload /> */}
+                    <SectionTypography />
                 </div>
                 <Footer />
             </div>

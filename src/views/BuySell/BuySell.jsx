@@ -12,7 +12,6 @@ import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
-import SectionBasics from "../Components/Sections/SectionBasics.jsx";
 import SectionPills from "../Components/Sections/SectionPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
@@ -27,7 +26,7 @@ class Components extends React.Component {
     return (
       <div>
         <Header
-          brand="DDDDawei Zhu Real Estate Professionals"
+          brand="Dawei Zhu Real Estate Professionals"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"

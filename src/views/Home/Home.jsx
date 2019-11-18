@@ -37,7 +37,7 @@ class Components extends React.Component {
         return (
             <div>
                 <Header
-                    brand="DDDDawei Zhu Real Estate Professionals"
+                    brand="Dawei Zhu Real Estate Professionals"
                     rightLinks={<HeaderLinks />}
                     fixed
                     color="transparent"
@@ -59,7 +59,7 @@ class Components extends React.Component {
                                     />
                                     <h3 className={classes.subtitle}>
                                         Placeholderrrr
-                  </h3>
+                                    </h3>
                                 </div>
                             </GridItem>
                         </GridContainer>
