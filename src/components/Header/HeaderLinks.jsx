@@ -60,21 +60,12 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
+          // href="https://www.creative-tim.com/product/material-kit-react"
           color="transparent"
           className={classes.navLink}
         >
-          Sellers
+          Listing
         </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Link
-          to="/contacts-page"
-          color="transparent"
-          className={classes.navLink}
-        >
-          Contacts
-        </Link>
       </ListItem>
     </List>
   );
